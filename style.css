@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(36, 36, 36);
+}
+
+canvas {
+  border: 1px solid white;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #6484aa;
+}
